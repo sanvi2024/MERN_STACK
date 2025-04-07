@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    margin: 20px;
+    background:#FFD1DC;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    font-family: 'Georgia', serif;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+img {
+    width: 25%;
+    border-radius: 10px;
+}
+
+.caption {
+    font-style: italic;
+    color: #666;
+}
+
+.styled-button {
+    padding: 10px 20px;
+    border: 2px solid #333;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.styled-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+th {
+    background-color: #ddd;
+}
+
+form {
+    width: 40%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
